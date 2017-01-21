@@ -1,5 +1,7 @@
 # crime-tracker
 
+![Screenshot](Screenshot.jpg?raw=true)
+
 A web app that tracks crime happening in city in real time. Developed during hackathon at KU IT Meet 2017.
 
 **Authors:**
