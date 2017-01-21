@@ -13,7 +13,7 @@ cur.execute('SELECT username, created_date '
 	+' WHERE username = ? and created_date = ?', 
 	(username,created_date)
 	)
-if(cur!=None and cur.rowcount>0):
+if(!(cur!=None and cur.rowcount>0)):
 	cur.execute('INSERT INTO tweet_data'
 		+ '( tweet, longitude, latitude, username, created_date)'
 		+ ' VALUES '
