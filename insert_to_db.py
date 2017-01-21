@@ -11,7 +11,7 @@ created_date = 'Sun Apr 12, 2012 00:12:00 UTC'
 cur.execute('SELECT username, created_date '
 	+' FROM tweet_data '
 	+' WHERE username = ? and created_date = ?', 
-	(tweet,created_date)
+	(username,created_date)
 	)
 if(cur!=None and cur.rowcount>0):
 	cur.execute('INSERT INTO tweet_data'
