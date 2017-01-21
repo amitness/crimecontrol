@@ -1,5 +1,13 @@
 {% extends "layout.html" %}
 {% block title %}Crime Tracker{% endblock %}
+{% block resources %}
+<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
 {% block content %}
-<p>TODO: Design here</p>
+{% include 'sidebar.html' %}
+{% include 'map.html' %}
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"> </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh8IIVLRKMlSP3tCet7bnj-0sLbG2D5eM&callback=initMap"></script>
 {% endblock %}
