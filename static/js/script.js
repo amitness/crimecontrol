@@ -16,7 +16,7 @@ if (navigator.geolocation) {
     };
 
     var baseURL = "https://twitter.com/intent/tweet?text=%40NepalPoliceHQ%20%23npcrimetrack";
-    var coordinates = '%20' + pos.lat + ',' + pos.lng;
+    var coordinates = '%20' + '[' + pos.lat + ',' + pos.lng + ']';
     var sharedURL = "&url=%20";
     finalURL = baseURL + coordinates + sharedURL;
 
