@@ -16,12 +16,12 @@ if (navigator.geolocation) {
     };
 
     var baseURL = "https://twitter.com/intent/tweet?text=%40NepalPoliceHQ%20%23npcrimetrack";
-    var coordinates = '%20' + pos['lat'] + ',' + pos['lng'];
+    var coordinates = '%20' + pos.lat + ',' + pos.lng;
     var sharedURL = "&url=%20";
     finalURL = baseURL + coordinates + sharedURL;
 
     var infoWindow = new google.maps.InfoWindow({map: map});
-    var loc_name = new google.maps.Geocoder;
+    var loc_name = new google.maps.Geocoder();
     loc_name.geocode({'location': pos}, function(results, status) {
         if (status === 'OK') {
           infoWindow.setContent(results[1].formatted_address);
@@ -31,7 +31,7 @@ if (navigator.geolocation) {
     var circle ={
         path: google.maps.SymbolPath.CIRCLE,
         fillColor: '#F44336',
-        fillOpacity: .4,
+        fillOpacity: 0.4,
         scale: 9,
         strokeColor: 'white',
         strokeWeight: 1
@@ -40,7 +40,7 @@ if (navigator.geolocation) {
         position: pos,
         map: map,
         icon: circle});
-    
+
     for (var i = 0; i < arr.length; i++) {
       var on = true;
       var intervalSeconds = 0.5;
@@ -77,7 +77,7 @@ infoWindow.setContent(browserHasGeolocation ?
 }
 
 function popitup() {
- newwindow=window.open(finalURL,'name','height=200,width=700');
- if (window.focus) {newwindow.focus()}
+ newwindow=window.open(finalURL,'name','height=250,width=700');
+ if (window.focus) {newwindow.focus();}
   return false;
 }
