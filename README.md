@@ -35,3 +35,7 @@ deactivate
 - [Amit Chaudhary](https://github.com/studenton)
 - [Enosh Shrestha](https://github.com/eroj333)
 - [Kamal Paneru](https://github.com/Kamalpaneru)
+
+## License
+
+This project is licensed under the GNU License - see the [LICENSE](LICENSE.md) file for details
