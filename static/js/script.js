@@ -50,6 +50,8 @@ if (navigator.geolocation) {
           icon:circle
           // animation: google.maps.Animation.BOUNCE,
         });
+
+
       setInterval(function() {
          if(on) {
            marker.setMap(null);
@@ -59,6 +61,9 @@ if (navigator.geolocation) {
         on = !on;
       }, intervalSeconds * 1000);
   }
+  var tooltip = new google.maps.InfoWindow({map: map});
+      tooltip.setContent('Shop Robbery just now!' );
+      tooltip.setPosition(arr[arr.length - 1]);
     map.setCenter(pos);
   }, function() {
     handleLocationError(true, infoWindow, map.getCenter());
