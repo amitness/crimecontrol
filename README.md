@@ -4,6 +4,8 @@
 
 A web app that tracks crime happening in city in real time. Developed during hackathon at KU IT Meet 2017.
 
+Slides: [Link](slides.pdf)
+
 ###Built With
 
 * [Python](https://www.python.org/)
