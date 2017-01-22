@@ -2,9 +2,9 @@
 
 ![Screenshot](Screenshot.jpg?raw=true)
 
-A web app that tracks crime happening in city in real time. Developed during hackathon at KU IT Meet 2017.
+A web app that tracks crime happening in city in real time. Developed during Leapfrog Hackathon at [KU IT Meet 2017](https://www.facebook.com/events/147957639029217/).
 
-Slides: [Link](slides.pdf)
+Details: [Slides](slides.pdf)
 
 ###Built With
 
