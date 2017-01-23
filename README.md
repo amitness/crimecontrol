@@ -2,11 +2,14 @@
 
 ![Screenshot](Screenshot.jpg?raw=true)
 
-A web app that tracks crime happening in city in real time. Developed during Leapfrog Hackathon at [KU IT Meet 2017](https://www.facebook.com/events/147957639029217/).
+A web app that tracks crime happening in city in real time. 
 
-Details: [Slides](slides.pdf)
+### Backstory
+Developed during 40 hour Leapfrog Hackathon at [KU IT Meet 2017](https://www.facebook.com/events/147957639029217/).
 
-###Built With
+Slides for the presentation can be viewed [here](slides.pdf).
+
+### Built With
 
 * [Python](https://www.python.org/)
 * [Flask](http://flask.pocoo.org/)
@@ -39,11 +42,11 @@ python manage.py runserver
 deactivate
 ```
 
-**Authors:**
+### Authors
 - [Amit Chaudhary](https://github.com/studenton)
 - [Enosh Shrestha](https://github.com/eroj333)
 - [Kamal Paneru](https://github.com/Kamalpaneru)
 
-## License
+### License
 
 This project is licensed under the GNU License - see the [LICENSE](LICENSE.md) file for details
