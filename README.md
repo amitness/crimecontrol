@@ -43,7 +43,7 @@ deactivate
 ```
 
 ### Authors
-- [Amit Chaudhary](https://github.com/studenton)
+- [Amit Chaudhary](https://github.com/amitness)
 - [Enosh Shrestha](https://github.com/eroj333)
 - [Kamal Paneru](https://github.com/Kamalpaneru)
 
