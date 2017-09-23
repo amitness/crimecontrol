@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```shell
 python app.py
 ```
-* In a web browser, go to [localhost:8000](http://localhost:8000/), and you should see the development site! Please not that the terminal window you are running the development site in must stay open while you are using the site.
+* In a web browser, go to [localhost:5000](http://localhost:5000/), and you should see the development site! Please not that the terminal window you are running the development site in must stay open while you are using the site.
 * When daily development is complete, terminate the local web server by typing ```CONTROL + C```. Also deactivate the virtual environment:
 ```shell
 deactivate
